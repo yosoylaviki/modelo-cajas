@@ -1,3 +1,53 @@
 <!-- Utilizando CSS confecciona el siguiente HTML de la imagen llamada ejercicio-6.png :
 El objetivo es posicionar el ribbon de despacho en 48 horas sobre la foto del producto.
 Hint: utilizar position: relative y position: absolute. -->
+
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>ejercicio 5</title>
+</head>
+<body>
+  <meta charset="UTF-8">
+  <title>Ejercicio 4</title>
+  <style media="screen" type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .ribbon{
+      position: relative;
+      border-left-width: 70px;
+       padding-top: 150px;
+       margin-left: 153px;
+    }
+
+    .item{
+      position: absolute;
+    }
+
+    .ribbon img{
+      height: 50px;
+    }
+
+  </style>
+
+  <div class="container">
+      <div class="item">
+        <img src="images/ejercicio-6.png" alt="">
+      </div>
+
+    <div class="ribbon">
+      <img src="images/ejercicio-6_ribbon.png" alt="">
+    </div>
+  </div>
+
+
+
+
+
+</body>
+</html>
