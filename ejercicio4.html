@@ -12,26 +12,35 @@ tal y como se ven en la imagen ejercicio-4.png del material de apoyo. -->
       margin: 0;
       padding: 0;
     }
-    .main {
+
+    .container{
       background-color: #B0CCAB;
+      width: 60%;
+      height: 250px;
+      position: fixed;
+    }
+    .main {
       padding: 50px;
     }
     .main__paragraph {
-      left: 40px;
+      left: 80px;
       position: fixed;
     }
   </style>
 </head>
 <body>
-  <section class="main">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-      quasi neque fugit non delectus soluta fugiat, qui? Commodi sint itaque
-      necessitatibus, quibusdam quia soluta impedit facilis architecto vel? Dolor,
-      eveniet!</p>
-      <p class="main__paragraph">Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Suscipit sed fugiat id eius soluta veritatis molestias saepe
-        porro impedit praesentium nisi recusandae harum, vitae, quos expedita nostrum
-        sequi! Autem, assumenda?</p>
-      </section>
+  <div class="container">
+    <section class="main">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+        quasi neque fugit non delectus <br> soluta fugiat, qui? Commodi sint itaque
+        necessitatibus, quibusdam quia soluta impedit facilis <br> architecto vel? Dolor,
+        eveniet!</p>
+        <p class="main__paragraph">Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Suscipit sed fugiat id eius soluta veritatis <br> molestias saepe
+          porro impedit praesentium nisi recusandae harum, vitae, quos expedita nostrum <br>
+          sequi! Autem, assumenda?</p>
+        </section>
+  </div>
+
     </body>
     </html>
